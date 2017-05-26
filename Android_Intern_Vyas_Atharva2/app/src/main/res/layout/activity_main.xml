@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.experiment.lenovo.android_intern_vyas_atharva.MainActivity"
+    android:background="@drawable/gbackground">
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place chat"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#FFFFFF"
+        android:background="#388E3C"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:text="Enter the details and sign in:"
+        android:textSize="18sp"
+        android:paddingLeft="8dp"
+        android:textColor="#1B5E20"
+        />
+    <EditText
+        android:id="@+id/firstname"
+        android:hint="First name:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lastname"
+        android:layout_margin="8dp"
+        />
+    <EditText
+        android:id="@id/lastname"
+        android:hint="Last name:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sign_in_button"
+        android:layout_margin="8dp"/>
+    <com.google.android.gms.common.SignInButton
+        android:id="@id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"/>
+
+</RelativeLayout>

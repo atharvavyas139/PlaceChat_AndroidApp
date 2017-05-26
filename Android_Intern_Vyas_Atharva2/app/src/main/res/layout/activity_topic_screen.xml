@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    tools:context="com.experiment.lenovo.android_intern_vyas_atharva.TopicScreen">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/topiclayout">
+    <EditText
+        android:id="@+id/topicetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add Topic:"
+        android:padding="8dp"/>
+    <Button
+        android:id="@+id/add_topic_button"
+        android:text="Add topic"
+        android:onClick="addtopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2E7D32"
+        android:textColor="#FFFFFF"
+        android:layout_margin="8dp"
+        />
+    <TextView
+        android:text="or choose from topics of this address:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#1B5E20"
+        android:layout_margin="8dp"/>
+</LinearLayout>
+</ScrollView>

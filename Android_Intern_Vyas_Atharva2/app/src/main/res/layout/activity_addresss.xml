@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.experiment.lenovo.android_intern_vyas_atharva.AddresssActivity"
+    >
+    <ImageView
+        android:src="@drawable/addressimage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_above="@+id/address"/>
+    <TextView
+        android:id="@id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter/Select Address:"
+        android:textSize="23sp"
+        android:paddingLeft="8dp"
+        android:textColor="#1B5E20"
+        android:layout_above="@+id/addresstext"/>
+    <AutoCompleteTextView
+        android:id="@id/addresstext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_above="@+id/enterbutton"/>
+    <Button
+        android:id="@id/enterbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter"
+        android:onClick="addressEntered"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:background="#2E7D32"
+        android:textColor="#FFFFFF"/>
+</RelativeLayout>

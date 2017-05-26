@@ -1,0 +1,9 @@
+1.Enter personal details and press sign in button.
+2.Choose the appropriate account.
+3.Press sign in button again.
+4.Enter/Select Address and press Enter.
+6.If discussions and topics of that address have already been started you will see the topics as selectable buttons in the home screen after some time.
+7.Select the already created topic or create a new one and select it.
+8.After choosing a topic,you can see all the discussions so far by clicking on get chat button and add new chat using add chat button.
+9.The chat and the first name seperated by ":" can be seen now.
+Note:If sign in is done once the user will directly be taken to home screen.
